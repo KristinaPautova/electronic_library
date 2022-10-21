@@ -1,0 +1,31 @@
+.chat {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  min-height: 800px;
+}
+
+.com_chat {
+  background-color: #ced4da;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.close_bt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.css-1elvajr-MuiImageList-root {
+  grid-template-columns: repeat(1, 1fr) !important;
+}
+
+.cart__container_success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

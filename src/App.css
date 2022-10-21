@@ -1,0 +1,60 @@
+@font-face {
+  src: url("./fonts/Roboto-Regular.ttf");
+  font-family: "Roboto Regular";
+}
+@font-face {
+  src: url("./fonts/Roboto-Medium.ttf");
+  font-style: normal;
+  font-family: "Roboto Medium";
+}
+@font-face {
+  src: url("./fonts/Roboto-Bold.ttf");
+  font-style: normal;
+  font-family: "Roboto Bold";
+}
+
+
+
+Link {
+  font-size: 16px;
+  line-height: 18.8px;
+  font-family: "Roboto Regular";
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 76.8px;
+  /*margin: 60px auto 30px;*/
+  font-family: "Roboto Regular";
+}
+@media screen and (max-width: 1199px) {
+  h1 {
+    /*padding-top: 40px;*/
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0 auto;
+  }
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 57.6px;
+  font-family: "Roboto Regular";
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 38px;
+  font-family: "Roboto Regular";
+}
+
+span {
+  font-family: "Roboto Regular";
+}
+
+p {
+  font-size: 24px;
+  line-height: 35px;
+  /*margin: 60px auto 30px;*/
+  font-family: "Roboto Regular";
+}

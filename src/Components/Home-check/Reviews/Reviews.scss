@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
+
+.review__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 599px;
+  background: #f7f9fb;
+
+  h2 {
+    font-weight: 500;
+    margin-top: 110px;
+  }
+  .review__container__slide {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+
+    &-rect {
+      width: 100%;
+      height: 233px;
+      //background: white;
+      border-radius: 8px;
+
+      .wrapper {
+        display: flex;
+        margin-left: 25px;
+        margin-top: 30px;
+        position: fixed;
+        opacity: 0;
+
+        transition: opacity 0.3s ease-in;
+        &.is-active {
+          position: relative;
+          opacity: 1;
+        }
+
+        img {
+          align-self: flex-start;
+          width: 53px;
+          height: 53px;
+        }
+        &__text {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          margin-top: 1%;
+          &-name {
+            font-weight: 700;
+          }
+          &-city {
+            font-size: 14px;
+            margin-top: 4px;
+            color: #636780;
+          }
+          &-monolog {
+            margin-top: 18px;
+            line-height: 23px;
+            padding-right: 75px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .icon-arrow {
+      font-size: 20px;
+      color: #61a199;
+      height: 20px;
+      cursor: pointer;
+    }
+    .icon-arrow:first-child {
+      margin-right: 143px;
+    }
+    .icon-arrow:nth-child(3) {
+      margin-left: 143px;
+    }
+  }
+}
+
+.review__container-circles {
+  display: flex;
+  margin: 42px 0 90px 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+.swiper {
+  width: 695px;
+  //height: 331px;
+  padding: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+}
+
+.comment__men {
+  width: 600px;
+  padding: 50px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.men__top > p {
+  margin: 0;
+}
+
+.men__top > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #636780;
+}
+
+.men__top__text {
+  margin-top: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media all and (max-width: 430px) {
+  .comment__men {
+    width: 300px;
+  }
+  .review {
+    display: none;
+  }
+}

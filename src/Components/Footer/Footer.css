@@ -1,0 +1,78 @@
+/* icons */
+@font-face {
+  font-family: "icons";
+  src: url("../../fonts/icons.eot");
+  src: url("../../fonts/icons.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/icons.woff") format("woff"),
+    url("../../fonts/icons.svg#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class*="icon-"]:before {
+  display: inline-block;
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-vk:before {
+  content: "A";
+}
+
+.icon-instagram:before {
+  content: "B";
+}
+
+.icon-facebook:before {
+  content: "C";
+}
+
+.footer__frame {
+  background: #3f3d56;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  padding: 49px;
+}
+.footer__frame-socials {
+  font-size: 27px;
+  line-height: 27px;
+}
+@media screen and (max-width: 1199px) {
+  .footer__frame-socials {
+    margin-left: 0;
+    padding-top: 16px;
+  }
+}
+.footer__frame-socials a {
+  padding: 0px 9px;
+  color: #ffffff;
+}
+.footer__frame-socials a:hover {
+  color: #828282;
+}
+.footer__frame-copy {
+  margin-right: auto;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.4);
+}
+@media screen and (max-width: 1199px) {
+  .footer__frame-copy {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer__frame {
+    justify-content: center;
+    /*margin-top: 50px;*/
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 0px 30px 20px;
+  }
+}

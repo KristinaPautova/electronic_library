@@ -1,0 +1,61 @@
+.heading__container {
+  display: flex;
+  flex-direction: column;
+  height: 730px;
+
+  img {
+    margin-right: auto;
+    text-decoration: none;
+    display: none;
+  }
+}
+.heading__container__check {
+  display: flex;
+  margin-left: 10%;
+  flex-direction: column;
+  width: 50%;
+  order: 1;
+
+  button {
+    margin: 0 0 120px 0;
+    overflow: visible;
+    padding: 16px 40px;
+    border-radius: 8px;
+    width: 237px;
+    background: #61a199;
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+  p {
+    padding-top: 30px;
+    font-size: 24px;
+    z-index: 3;
+  }
+
+  h1 {
+    padding-top: 102px;
+  }
+}
+
+.heading {
+  margin-top: 70px;
+  background-image: url("../../../image/wumen-car.svg");
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  background-position: bottom;
+}
+
+.heading__container__check-link {
+  z-index: 6;
+  width: 40%;
+  height: 50px;
+  margin-top: 40px;
+}
+
+@media all and (max-width: 430px) {
+  .heading__container__check > p {
+    display: none;
+  }
+}

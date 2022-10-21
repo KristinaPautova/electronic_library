@@ -1,0 +1,91 @@
+.filter {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  padding-top: 10px;
+  row-gap: 40px;
+}
+
+.main_box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://w-dog.ru/wallpapers/12/15/431486237375789/dym-zhenshhina-devushka-devushka-iz-dyma-nebo-devushka-woomam-dym-wooman.jpg");
+  background-size: cover;
+}
+
+.search__box {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  box-sizing: border-box;
+  min-width: 0;
+  position: relative;
+  max-width: 1248px;
+  width: 100%;
+  margin: auto;
+}
+
+.search__box__bac {
+  /*background-color: #FAFAFA;*/
+  /*width: 100%;*/
+}
+
+@media all and (max-width: 500px) {
+  .search__box {
+    display: flex;
+  }
+  .search__box__bac {
+    /*background-color: none;*/
+  }
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 10%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+.paginationBttns a {
+  padding: 10%;
+  margin: 10% 8px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(0, 145, 212, 0.904);
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: rgba(0, 145, 212, 0.904);
+}
+
+.paginationActive a {
+  color: white;
+  background-color: rgba(0, 145, 212, 0.904);
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  padding-top: 10px;
+  row-gap: 20px;
+}
+
+.bac_cop {
+  /*background-image: url("https://i.gifer.com/embedded/download/BVYi.gif");*/
+  background-size: cover;
+  border-radius: 15px;
+  padding: 10px;
+}

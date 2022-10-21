@@ -1,0 +1,24 @@
+@media screen and (min-width: 1200px) {
+  .question__frame {
+    width: 944px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .question__frame {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .is-desktop {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .is-mobile {
+    display: none !important;
+  }
+}
+
+.is-animated {
+  transition: all 400ms ease;
+}
